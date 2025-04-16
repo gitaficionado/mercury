@@ -1,3 +1,5 @@
+HTML
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,10 +33,12 @@
         <span></span>
       </div>
       <div class="menu-links">
-        <li><a href="#about " onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <ul>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -44,60 +48,60 @@
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
-      <h1 class="title">Leonardo Alvarez </h1>
+      <h1 class="title">Leonardo Alvarez</h1>
       <p class="section__text__p2">Organizational IT Consultant</p>
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('./assets/Technical_Instructor.pdf')">
           Download Resume
         </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        <button class="btn btn-color-1" onclick="location.href='#contact'">
           Contact Info
         </button>
       </div>
       <div id="socials-container">
-        <img src="./assets/linkedin.png" class="icon"
-          onclick="location.href='https://linkedin.com/in/leonardo-alvarez-it/';" alt=" />
+        <img src="./assets/linkedin.png" alt="LinkedIn Profile" class="icon"
+          onclick="location.href='https://linkedin.com/in/leonardo-alvarez-it/';" />
       </div>
     </div>
   </section>
   <section id=" about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-          <div class="section__pic-container">
-            <img class="about-pic" src="./assets/Poster2.png" alt="Profile Picture" />
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img class="about-pic" src="./assets/Poster2.png" alt="Profile Picture" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img class="icon" src="./assets/experience.png" alt="experience icon" />
+            <h3>Change Agent</h3>
+            Innovation is constant in the modern business landscape. As a Technical Curriculum Developer,
+            I am interested in influencing people, organizations, and management when challenges are
+            complex and require considerable diplomacy.
           </div>
-          <div class="about-details-container">
-            <div class="about-containers">
-              <div class="details-container">
-                <img class="icon" src="./assets/experience.png" alt="experience icon" />
-                <h3>Change Agent</h3>
-                Innovation is constant in the modern business landscape. As a Technical Curriculum Developer,
-                I am interested in influencing people, organizations, and management when challenges are
-                complex and require considerable diplomacy.
-              </div>
-              <div class="details-container">
-                <img class="icon" src="./assets/education.png" alt="Education icon" />
-                <h3>Mentorship</h3>
-                My passion for learning and assisting others has been the foundation to
-                my personal and professional goals. I used my technical writing skills to provide
-                suggestions to undergraduate students from Stillman College to improve their
-                LinkedIn profiles.
-              </div>
-            </div>
-            <div class="text-container">
-              <p>I believe that the best way to cultivate continuous learning is through collaboration and clear
-                communication.
-                I am on a quest for a role where I can combine my technical skills with my passion for teaching and
-                learning. I thrive on teams that values innovation, embraces challenges, and believes in the power of
-                continuous growth. My goal is to contribute to an organization where technical expertise meets
-                creativity. I
-                am excited to collaborate with others to push boundaries together.
-              </p>
-            </div>
+          <div class="details-container">
+            <img class="icon" src="./assets/education.png" alt="Education icon" />
+            <h3>Mentorship</h3>
+            My passion for learning and assisting others has been the foundation to
+            my personal and professional goals. I used my technical writing skills to provide
+            suggestions to undergraduate students from Stillman College to improve their
+            LinkedIn profiles.
           </div>
         </div>
-        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='./#experience'" alt="" />
+        <div class="text-container">
+          <p>I believe that the best way to cultivate continuous learning is through collaboration and clear
+            communication.
+            I am on a quest for a role where I can combine my technical skills with my passion for teaching and
+            learning. I thrive on teams that values innovation, embraces challenges, and believes in the power of
+            continuous growth. My goal is to contribute to an organization where technical expertise meets
+            creativity. I
+            am excited to collaborate with others to push boundaries together.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='./#experience'" alt="" />
   </section>
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
